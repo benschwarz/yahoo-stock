@@ -12,7 +12,7 @@ require 'open-uri'
 
 module Yahoo
   class Stock
-    VERSION = '0.0.1'
+    VERSION = '0.0.2'
     BASE_URI = 'http://finance.yahoo.com/q?s='
   end
 end

@@ -15,6 +15,7 @@ describe Yahoo::Stock, "instance" do
   
   it "should have a last_trade" do
     @stock.should respond_to :last_trade
+    puts @stock.last_trade
     @stock.last_trade.should be_an_instance_of String
   end
 end
