@@ -1,0 +1,22 @@
+A Yahoo "API Wrapper"
+
+There is no wrapper for Yahoo's stocks interface, 
+here I provided the most grass roots experience possible.
+
+It will get the job done for my purpose and should be fairly
+easy to extend. Specs are provided. 
+
+Get it:
+
+
+
+Usage is as follows:
+
+require 'rubygems'
+require 'yahoo-stock'
+@stock = Yahoo::Stock.new("MGR.AX")
+@stock.last_trade => 4.10
+
+
+If you want additional properties (there is currently only 'last_trade')
+Fork the repo, add your own and send it back in. Now thats community!
